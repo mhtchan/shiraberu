@@ -16,8 +16,8 @@ from PyQt6.QtCore import Qt, pyqtSlot, pyqtSignal, QEvent, QAbstractTableModel
 from PyQt6.QtGui import QFontDatabase, QFont, QKeySequence
 from PyQt6.QtWebEngineWidgets import QWebEngineView
 import ujson
-from dictionary_loader import get_definition
-from dictionary_config import ConfigWindow
+from dictionary.loader import get_definition
+from dictionary.config import ConfigWindow
 from PIL import ImageGrab
 from PIL.PngImagePlugin import PngImageFile
 from PIL.BmpImagePlugin import DibImageFile

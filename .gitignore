@@ -1,5 +1,6 @@
 dictionary_files/
 __pycache__/
+dictionary/__pycache__/
 .venv/
 build/
 dist/
