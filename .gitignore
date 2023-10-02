@@ -1,0 +1,8 @@
+dictionary_files/
+__pycache__/
+.venv/
+build/
+dist/
+dictionary_fts.db
+poetry.lock
+main.spec

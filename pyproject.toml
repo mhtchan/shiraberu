@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "shiraberu"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+PyQt6 = "^6.5.2"
+PyQt6-WebEngine = "^6.5.0"
+peewee = "^3.16.3"
+manga-ocr = "^0.1.10"
+sqlitefts = "^0.5.1"
+Pillow = "^10.0.0"
+ujson = "^5.8.0"
+pyinstaller = "^5.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
