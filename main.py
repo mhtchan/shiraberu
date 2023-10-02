@@ -1,6 +1,6 @@
 import sys
-import dictionary_display
-import tab_widget
+import dictionary.display as dictionary_display
+import dictionary.tab_widget as tab_widget
 from PyQt6.QtWidgets import (
     QApplication
     ,QMainWindow

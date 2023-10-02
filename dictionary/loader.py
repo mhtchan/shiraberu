@@ -18,7 +18,7 @@ import re
 from sqlitefts import fts5
 from itertools import combinations
 
-db = SqliteDatabase('dictionary_fts.db',autoconnect=False)
+db = SqliteDatabase('dictionary_fts.db',autoconnect=True)
 
 class SimpleTokenizer(fts5.FTS5Tokenizer):
     def __init__(self, **kwargs):

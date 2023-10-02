@@ -2,7 +2,7 @@ import sys
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
-from dictionary_loader import load_dictionary, Dictionary, remove_dictionary, remove_all_dictionaries, update_dictionary_priority
+from dictionary.loader import load_dictionary, Dictionary, remove_dictionary, remove_all_dictionaries, update_dictionary_priority
 
 class ConfigWindow(QMainWindow):
     def __init__(self):
@@ -63,9 +63,12 @@ class ConfigWindow(QMainWindow):
 
     def display_dictionaries_table(self):
         self.dictionaries = Dictionary.select().order_by(Dictionary.priority.asc())
-        self.dictionaries_table.setModel(ReorderTableModel(
-            [[i.id, i.priority, i.title, i.revision] for i in self.dictionaries]
-        ))
+        try:
+            self.dictionaries_table.setModel(ReorderTableModel(
+                [[i.id, i.priority, i.title, i.revision] for i in self.dictionaries]
+            ))
+        except Exception as e:
+            print(e)
         self.dictionaries_table.setColumnHidden(0, True)
 
 class ReorderTableModel(QAbstractTableModel):
