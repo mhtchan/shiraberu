@@ -1,6 +1,8 @@
 # shiraberu
 A simple desktop app for dictionary lookups (with OCR functionality) that supports JMdict and EPWING dictionary files
 
+<img src="https://raw.githubusercontent.com/mhtchan/packcircles/master/images/example_1.png" width="400" height="400">
+
 # Installation
 ### Dependencies
 1. Run `poetry install` to install dependencies (see https://python-poetry.org/docs/#installation for poetry installation)
@@ -14,6 +16,8 @@ shiraberu only supports dictionary files that have been processed by the Yomicha
 * JMdict (freely available, see http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project)
 
 * Proprietary EPWING dictionaries (大辞林, 大辞泉 etc...)
+
+If done correctly, these files should be in `zip` format, which can be imported through the config window.
 
 # Usage
 
