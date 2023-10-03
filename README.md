@@ -1,7 +1,7 @@
 # shiraberu
 A simple desktop app for dictionary lookups (with OCR functionality) that supports JMdict and EPWING dictionary files
 
-<img src="https://raw.githubusercontent.com/mhtchan/shiraberu/master/images/example_1.png" width="400" height="400">
+<img src="https://raw.githubusercontent.com/mhtchan/shiraberu/master/images/example_1.png" width="458" height="292">
 
 # Installation
 ### Dependencies
