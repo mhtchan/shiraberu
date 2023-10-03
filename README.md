@@ -27,8 +27,8 @@ The lookup functionality accepts the wildcard characters `%` (zero or more chara
 For example, `電％` will match `電` and also entries such as `電気`, `電車` and `電子回路`.
 
 ### Optical Character Recognition
-Images that are pasted into the lookup text box will be translated to text (courtesy of the manga_ocr package). For example, simply copy a portion of the screen (ctrl+win+s on Windows) and paste into the lookup text box.
+Images that are pasted into the lookup text box will be translated to text (courtesy of the manga_ocr package). For example, simply copy a portion of the screen (shift+win+s on Windows) and paste into the lookup text box.
 
 # Licensing
 * This application uses the PyQt library, which is released under the GPL v3. Hence, the code in this repository is also released under the same license (https://github.com/mhtchan/shiraberu/blob/main/LICENSE)
-* The files in the `fonts` directory are licensed under the SIL Open Font License.
+* The files in the `font` directory are licensed under the SIL Open Font License.
